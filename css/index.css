@@ -1,9 +1,9 @@
 .myButton {
-  background-color: #23293B;
+  background-color: white;
   -moz-border-radius: 5px;
   -webkit-border-radius: 5px;
   border-radius: 5px;
-  border: 1px solid #23293B;
+  border: 1px solid white;
   display: inline-block;
   cursor: pointer;
   color: #ffffff;
@@ -16,10 +16,6 @@
   .myButton {
     width: 100%;
   }
-}
-.myButton:hover {
-  background: white;
-  color: #23293B;
 }
 /* http://meyerweb.com/eric/tools/css/reset/ 
 v2.0 | 20110126
@@ -166,7 +162,7 @@ h3,
 h4,
 h5 {
   font-family: 'Roboto', sans-serif;
-  color: #23293B;
+  color: white;
 }
 h2 {
   font-size: 3.2rem;
@@ -185,283 +181,56 @@ p {
 }
 .nav-wrapper {
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
   padding: 3%;
-  background-color: whitesmoke;
+  background-color: #363237;
 }
-@media (max-width: 500px) {
-  .nav-wrapper {
-    width: 90%;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 3%;
-  }
-}
-.nav-wrapper .top-space {
-  margin-bottom: 5%;
-}
-.nav-wrapper .top-space h1 {
-  font-size: 5rem;
-}
-@media (max-width: 500px) {
-  .nav-wrapper .top-space h1 {
-    width: 100%;
-    margin-bottom: 8%;
-    font-size: 3.5rem;
-  }
-}
-@media (max-width: 500px) {
-  .nav-wrapper .top-space {
-    width: 80%;
-  }
-}
-@media (max-width: 500px) {
-  .nav-wrapper {
-    width: 100%;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-}
-.nav-wrapper .top-space {
-  margin-left: 0;
-}
-@media (max-width: 500px) {
-  .nav-wrapper .top-space {
-    margin: 0;
-  }
-}
-.nav-wrapper .nav-links {
-  width: 70%;
+.nav-links {
+  width: 90%;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  margin-left: 10%;
 }
 @media (max-width: 500px) {
-  .nav-wrapper .nav-links {
+  .nav-links {
     width: 100%;
   }
 }
-.nav-wrapper .nav-links a {
-  width: 55%;
+.nav-links a {
+  width: 50%;
   font-size: 1.5rem;
   text-decoration: none;
-  color: #454A59;
+  color: white;
 }
 @media (max-width: 500px) {
-  .nav-wrapper .nav-links a {
+  .nav-links a {
     width: 100%;
     font-size: 1rem;
   }
 }
 footer {
-  color: #22283B;
-  background: #f4f4f4;
-  padding: 20px 0;
-  border: 1px double #e0e0e0;
-  border-radius: 10px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.home .intro .mainhd {
-  border-radius: 20px;
-}
-@media (max-width: 500px) {
-  .home .intro .mainhd {
-    width: 100%;
-  }
-}
-.home .intro h2 {
-  padding: 15px;
-}
-.home .intro p {
-  padding: 0 15px;
-}
-@media (max-width: 500px) {
-  .home .intro p {
-    width: 100%;
-  }
-}
-@media (max-width: 500px) {
-  .home .intro {
-    width: 100%;
-  }
-}
-.home .space-images {
-  display: flex;
-  flex-wrap: wrap;
-  width: 100%;
-}
-@media (max-width: 500px) {
-  .home .space-images .launch,
-  .home .space-images .sky {
-    display: none;
-  }
-}
-.home .space-images img {
-  width: 28%;
-  margin: 20px 2.5%;
-  border-radius: 20px;
-  height: 100%;
-}
-@media (max-width: 500px) {
-  .home .space-images img {
-    width: 100%;
-  }
-}
-.home .visit-planets {
-  padding: 15px;
-}
-.home .visit-planets h3 {
-  margin-top: 11px;
-}
-.home .visit-planets p {
-  margin-top: 13px;
-}
-.home .walk {
-  margin-top: 60px;
-  border-top: 1px solid #dee2e6;
-  padding: 50px 60px;
-  display: flex;
-  justify-content: center;
-}
-@media (max-width: 500px) {
-  .home .walk {
-    flex-direction: column-reverse;
-    width: 100%;
-    padding: 50px 3%;
-  }
-}
-.home .walk .walk-text {
-  width: 50%;
-}
-@media (max-width: 500px) {
-  .home .walk .walk-text {
-    width: 100%;
-  }
-}
-.home .walk .walk-text h3 {
-  margin-bottom: 10px;
-}
-.home .walk .walk-text p {
-  margin-bottom: 26px;
-}
-.home .walk .walk-text .btn {
-  background-color: #23293B;
-  -moz-border-radius: 5px;
-  -webkit-border-radius: 5px;
-  border-radius: 5px;
-  border: 1px solid #23293B;
+  color: white;
+  background: #363237;
   display: inline-block;
-  cursor: pointer;
-  color: #ffffff;
-  font-family: 'Russo One', sans-serif;
-  font-size: 15px;
-  padding: 11px 13px;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+footer p {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+footer p a {
+  color: white;
   text-decoration: none;
 }
-@media (max-width: 500px) {
-  .home .walk .walk-text .btn {
-    width: 100%;
-  }
+.home .center {
+  padding: 2%;
+  background: #363237;
 }
-.home .walk .walk-text .btn:hover {
-  background: white;
-  color: #23293B;
-}
-@media (max-width: 500px) {
-  .home .walk .walk-text .btn {
-    width: 100%;
-  }
-}
-.home .walk .walk-img {
-  width: 46%;
-  margin-left: 4%;
-}
-@media (max-width: 500px) {
-  .home .walk .walk-img {
-    width: 100%;
-    margin-left: 0;
-    padding-bottom: 20px;
-  }
-}
-.home .walk .walk-img img {
-  width: 100%;
-  height: auto;
-  border-radius: 10px;
-}
-.contact .mainhd {
-  border-radius: 20px;
-}
-@media (max-width: 500px) {
-  .contact .mainhd {
-    width: 100%;
-  }
-}
-.contact h1 {
-  padding: 15px;
-  font-size: 5rem;
-  margin-left: 35%;
-  padding: 5% 0;
-}
-@media (max-width: 500px) {
-  .contact h1 {
-    width: 100%;
-    margin-left: 20%;
-  }
-}
-.contact p {
-  padding: 0 15px;
-}
-@media (max-width: 500px) {
-  .contact p {
-    width: 100%;
-  }
-}
-.contact img.mainhd {
-  margin-left: 19%;
-}
-@media (max-width: 500px) {
-  .contact img.mainhd {
-    width: 100%;
-    margin-left: 0%;
-  }
-}
-@media (max-width: 500px) {
-  .contact {
-    width: 100%;
-  }
-}
-.contact input[type=text],
-.contact select,
-.contact textarea {
-  width: 100%;
-  padding: 12px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  box-sizing: border-box;
-  margin-top: 6px;
-  margin-bottom: 16px;
-  resize: vertical;
-}
-.contact input[type=submit] {
-  background-color: #23293B;
-  color: white;
-  padding: 12px 20px;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-}
-.contact input[type=submit]:hover {
-  background-color: crimson;
-}
-.contact .container {
-  border-radius: 5px;
-  background-color: whitesmoke ;
-  padding: 20px;
+.home .center img {
+  display: static;
+  width: 90%;
+  align-items: center;
 }
