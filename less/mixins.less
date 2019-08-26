@@ -1,0 +1,42 @@
+// Mixins Here
+.border(@width; @style; @color){
+    border:@width @style @color;
+}
+
+.myButton {
+	background-color:@header-font-color;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-radius:5px;
+	.border(1px; solid; @header-font-color);
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:'Russo One', sans-serif;;
+	font-size:15px;
+	padding:11px 13px;
+    text-decoration:none;
+    
+    @media @phone {
+        width:100%;
+    }
+
+    &:hover {
+        background: @white;
+        color:@header-font-color;
+    }
+}
+
+.phonemix(){
+	display: flex;
+	flex-direction: column;
+	align-content: center;
+	width:100%;
+}
+
+.custom-flex(@direction, @justify, @align) {
+    display: flex;
+    flex-direction: @direction;
+    justify-content: @justify;
+    align-items: @align;
+}
