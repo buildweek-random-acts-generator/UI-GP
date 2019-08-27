@@ -17,6 +17,13 @@
     width: 100%;
   }
 }
+.aboutbox {
+  width: 320px;
+  padding: 10px;
+  border: 2px solid #505050;
+  margin: 0;
+  background-color: #505050;
+}
 /* http://meyerweb.com/eric/tools/css/reset/ 
 v2.0 | 20110126
 License: none (public domain)
@@ -293,4 +300,54 @@ footer a {
   display: flex;
   justify-items: center;
   width: 100%;
+}
+.home .abouttitle {
+  display: flex;
+  justify-content: center;
+  padding-top: 2%;
+  font-size: 25px;
+}
+.home .about-us {
+  padding-top: 2%;
+  display: flex;
+  justify-content: space-between;
+}
+.home .about-us .aboutbox {
+  width: 30%;
+}
+.home .about-us .aboutbox h3 {
+  margin-bottom: 10%;
+  font-size: 20px;
+}
+.home .about-us .aboutbox p {
+  font-size: 15px;
+}
+.home .centerteam img {
+  display: flex;
+  justify-items: center;
+  width: 100%;
+  height: 300px;
+}
+.home .teamtitle {
+  display: flex;
+  justify-content: center;
+  padding: 4% 0;
+}
+.home .teaminfo {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 2% 0;
+}
+.home .teaminfo .teambox {
+  width: 25%;
+  margin: 2% 1%;
+}
+.home .teaminfo .teambox h3 {
+  margin: 6% 0;
+  display: flex;
+  justify-content: center;
+}
+.home .teaminfo .teambox img {
+  border-radius: 50%;
 }
