@@ -312,15 +312,38 @@ footer a {
   display: flex;
   justify-content: space-between;
 }
+@media (max-width: 500px) {
+  .home .about-us {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+}
 .home .about-us .aboutbox {
   width: 30%;
 }
+@media (max-width: 500px) {
+  .home .about-us .aboutbox {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+}
 .home .about-us .aboutbox h3 {
-  margin-bottom: 10%;
+  margin-bottom: 8%;
   font-size: 20px;
+  border-bottom: 2px solid #C3A9EF;
+  width: 25%;
 }
 .home .about-us .aboutbox p {
   font-size: 15px;
+}
+@media (max-width: 500px) {
+  .home .centerteam {
+    width: 100%;
+  }
 }
 .home .centerteam img {
   display: flex;
@@ -339,9 +362,25 @@ footer a {
   justify-content: space-between;
   margin: 2% 0;
 }
+@media (max-width: 500px) {
+  .home .teaminfo {
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+  }
+}
 .home .teaminfo .teambox {
   width: 25%;
   margin: 2% 1%;
+}
+@media (max-width: 500px) {
+  .home .teaminfo .teambox {
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+  }
 }
 .home .teaminfo .teambox h3 {
   margin: 6% 0;
@@ -350,4 +389,10 @@ footer a {
 }
 .home .teaminfo .teambox img {
   border-radius: 50%;
+}
+@media (max-width: 500px) {
+  .home .teaminfo .teambox img {
+    width: 100%;
+    padding: 10% 0;
+  }
 }
