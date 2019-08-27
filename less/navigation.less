@@ -7,10 +7,18 @@ nav {
     align-items: center;
     width:50%;
 
+    @media @phone {
+        width: 50%;
+    }
+
         a {
             text-decoration: none;
             font-size: 15px;
             color: @main-font-color;
+
+            @media @phone {
+                font-size: 10px;
+            }
         }
 
     }

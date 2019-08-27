@@ -187,10 +187,20 @@ nav {
   align-items: center;
   width: 50%;
 }
+@media (max-width: 500px) {
+  nav {
+    width: 50%;
+  }
+}
 nav a {
   text-decoration: none;
   font-size: 15px;
   color: white;
+}
+@media (max-width: 500px) {
+  nav a {
+    font-size: 10px;
+  }
 }
 footer {
   display: flex;
@@ -198,27 +208,63 @@ footer {
   align-items: space-between;
   margin-top: 2%;
 }
+@media (max-width: 500px) {
+  footer {
+    width: 100%;
+    align-items: center;
+    margin-left: 5%;
+  }
+}
 footer p {
   font-size: 10px;
+}
+@media (max-width: 500px) {
+  footer p {
+    width: 100%;
+  }
 }
 footer a {
   color: white;
   text-decoration: none;
   font-size: 10px;
 }
+@media (max-width: 500px) {
+  footer a {
+    width: 100%;
+  }
+}
 .home {
   padding: 2%;
   width: 100%;
   background: #363237;
 }
+@media (max-width: 500px) {
+  .home {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+}
 .home .header-container {
   display: flex;
   justify-content: space-between;
+}
+@media (max-width: 500px) {
+  .home .header-container {
+    width: 100%;
+  }
 }
 .home .header-container .logo a {
   text-decoration: none;
   font-size: 20px;
   color: white;
+}
+@media (max-width: 500px) {
+  .home .header-container .logo a {
+    font-size: 15px;
+  }
 }
 .home .center {
   position: relative;
@@ -232,6 +278,16 @@ footer a {
 }
 .home .center .centered h2 {
   padding-bottom: 5%;
+}
+@media (max-width: 500px) {
+  .home .center .centered h2 {
+    width: 100%;
+  }
+}
+@media (max-width: 500px) {
+  .home .center .centered .btn {
+    width: 65%;
+  }
 }
 .home .center img {
   display: flex;

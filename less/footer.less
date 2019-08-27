@@ -4,15 +4,29 @@ footer {
     justify-content: space-around;
     align-items: space-between;
     margin-top: 2%;
+
+    @media @phone {
+        width: 100%;
+        align-items: center;
+        margin-left: 5%;
+    }
     
     p {
         font-size: 10px;
+
+        @media @phone {
+            width: 100%;
+        }
     }
 
     a {
         color: @footer-font;
         text-decoration: none;
         font-size: 10px;
+        
+        @media @phone {
+            width: 100%;
+        }
     }
 
     

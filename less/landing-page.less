@@ -6,14 +6,32 @@
   width: 100%;
   background: @background-page;
 
+  @media @phone {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
   .header-container {
     display: flex;
     justify-content: space-between;
+
+    @media @phone {
+      width: 100%;
+  }
 
     .logo a {
       text-decoration: none;
       font-size:20px;
       color: @main-font-color;
+
+      @media @phone {
+        font-size: 15px;
+    }
+
+      
     }
   }
 
@@ -31,6 +49,16 @@
 
       h2 {
         padding-bottom: 5%;
+
+        @media @phone {
+          width:100%;
+      }
+      }
+
+      .btn {
+        @media @phone {
+          width: 65%;
+      }
       }
 
     }
