@@ -1,8 +1,38 @@
 // Home Content
 
 .home {
+
   padding: 2%;
   width: 100%;
-  background: #363237;
+  background: @background-page;
+
+  .center {
+
+    position: relative;
+    text-align: center;
+
+    .centered {
+
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+
+      h2 {
+        padding-bottom: 5%;
+      }
+
+    }
+
+    img {
+
+      display: flex;
+      justify-items: center;
+      width: 100%;
+
+    }
+
   }
+
+}
   
