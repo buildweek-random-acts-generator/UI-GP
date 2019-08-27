@@ -68,6 +68,10 @@
       display: flex;
       justify-items: center;
       width: 100%;
+      @media @phone {
+        width: 100%;
+        padding-bottom: 10%;
+      }
 
     }
 
@@ -87,19 +91,16 @@
 
     @media @phone {
       width: 100%;
-      display: flex;
       flex-direction: column;
-      justify-content: space-between;
+      padding-top: 10%;
     }
 
     .aboutbox{
       width: 30%;
       @media @phone {
         width: 100%;
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: column;
       }
+
       h3{
         margin-bottom: 8%;
         font-size: 20px;
