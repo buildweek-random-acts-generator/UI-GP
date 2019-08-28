@@ -25,6 +25,13 @@
   margin: 0;
   background-color: #505050;
 }
+.mission {
+  width: 100%;
+  padding: 10px;
+  border: 2px solid #505050;
+  margin: 0;
+  background-color: #505050;
+}
 /* http://meyerweb.com/eric/tools/css/reset/ 
 v2.0 | 20110126
 License: none (public domain)
@@ -315,6 +322,13 @@ footer a {
   justify-content: center;
   padding-top: 2%;
   font-size: 25px;
+}
+.home .mission {
+  margin-top: 2%;
+  text-align: center;
+}
+.home .mission p {
+  font-size: 1.5rem;
 }
 .home .about-us {
   padding-top: 2%;
