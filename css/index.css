@@ -215,6 +215,7 @@ footer {
   justify-content: space-around;
   align-items: space-between;
   margin-top: 2%;
+  color: #363237;
 }
 @media (max-width: 500px) {
   footer {
@@ -225,6 +226,7 @@ footer {
 }
 footer p {
   font-size: 10px;
+  color: white;
 }
 @media (max-width: 500px) {
   footer p {
@@ -408,4 +410,14 @@ footer a {
     width: 90px;
     margin-left: 35%;
   }
+}
+.home .centerabout img {
+  width: 100%;
+  height: 250px;
+}
+.home .centerabout .missiontitle {
+  display: flex;
+  justify-content: center;
+  padding-top: 5%;
+  font-size: 25px;
 }
