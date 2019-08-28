@@ -3,40 +3,31 @@
     border:@width @style @color;
 }
 
-.myButton {
-	background-color:@header-font-color;
+.btn {
+	background-color:@button-color;
 	-moz-border-radius:5px;
 	-webkit-border-radius:5px;
 	border-radius:5px;
-	.border(1px; solid; @header-font-color);
+	.border(1px; solid; @button-color);
 	display:inline-block;
 	cursor:pointer;
-	color:#ffffff;
-	font-family:'Russo One', sans-serif;;
+	color: @main-font-color;
+	font-family:'Roboto', sans-serif;
 	font-size:15px;
 	padding:11px 13px;
     text-decoration:none;
     
     @media @phone {
-        width:100%;
+		width:100%;
+		margin-bottom: 15%;
     }
 
-    &:hover {
-        background: @white;
-        color:@header-font-color;
-    }
 }
 
-.phonemix(){
-	display: flex;
-	flex-direction: column;
-	align-content: center;
-	width:100%;
-}
-
-.custom-flex(@direction, @justify, @align) {
-    display: flex;
-    flex-direction: @direction;
-    justify-content: @justify;
-    align-items: @align;
+.aboutbox {
+	width: 320px;
+	padding: 10px;
+	border: 2px solid  #505050;
+	margin: 0;
+	background-color: #505050;
 }
