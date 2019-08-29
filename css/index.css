@@ -33,6 +33,27 @@
   background-color: #505050;
   border-radius: 25px;
 }
+.teaminfo {
+  width: 100%;
+  padding: 10px;
+  border: 2px solid #505050;
+  margin: 0;
+  background-color: #505050;
+  border-radius: 25px;
+}
+.teambox {
+  width: 320px;
+  padding: 10px;
+  border: 2px solid #505050;
+  margin: 0;
+  background-color: #C3A9EF;
+  background: rgba(217, 169, 239, 0.4);
+  border-radius: 25px;
+}
+.teambox h3 {
+  text-decoration: underline;
+  color: #5050 5;
+}
 /* http://meyerweb.com/eric/tools/css/reset/ 
 v2.0 | 20110126
 License: none (public domain)
@@ -459,6 +480,13 @@ footer a {
   justify-content: center;
   margin: 2% 0;
 }
+@media (max-width: 500px) {
+  .missiontitle {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
 .questions h3 {
   font-size: 1.8rem;
   margin-left: 2%;
@@ -468,5 +496,29 @@ footer a {
 .questions p {
   margin-left: 3.5%;
   margin-top: 2%;
-  color: #C3A9EF;
+  color: white;
+}
+.questionbox {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 30px;
+  width: 100%;
+  border-radius: 25px;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+.active,
+.questionbox:hover {
+  background-color: #ccc;
+}
+.questions:hover .questioncontent {
+  display: block;
+}
+.questioncontent {
+  padding: 3% 0;
+  display: none;
+  overflow: hidden;
+  border-radius: 25px;
 }
