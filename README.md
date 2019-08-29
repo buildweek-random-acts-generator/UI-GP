@@ -1,7 +1,7 @@
 # UI-GP
 Link to Trello Board: <a href="https://trello.com/invite/b/r2H8kls4/f367310f0e9c345b79da514f65e6637d/ui-gp-random-acts-generator">Click Me!</a>
 
-Link to Netlify: https://mystifying-newton-714a99.netlify.com/
+Link to Netlify: https://randomactsgenerator.netlify.com/
 
  <br>   
 
